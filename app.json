@@ -16,11 +16,7 @@
       "description": "ᴀ ʙᴏᴛ ᴛᴏᴋᴇɴ ғʀᴏᴍ @BotFather",
       "required": false,
       "value": ""
-    },
-    "STRING_SESSION": {
-      "description": "ғɪʟʟ ʜᴇʀᴇ ᴀ ᴘʏʀᴏɢʀᴀᴍ sᴛʀɪɴɢ sᴇssɪᴏɴ ғᴏʀ ɪᴅ-ᴄʜᴀᴛʙᴏᴛ, ɢᴇᴛ ɪᴛ ғʀᴏᴍ: https://telegram.tools/session-string-generator#pyrogram,user (ᴛʜɪs ɪs ᴏᴘᴛɪᴏɴᴀʟ, ɪғ ʏᴏᴜ ᴅᴏɴᴛ ᴡᴀɴᴛ ɪᴅ-ᴄʜᴀᴛʙᴏᴛ ʏᴏᴜ ᴄᴀɴ sᴋɪᴘ ᴛʜɪs ᴠᴀʀɪᴀʙʟᴇ)",
-      "required": false,
-      "value": ""
+
     },
     "OWNER_ID": {
       "description": "ғɪʟʟ ʜᴇʀᴇ ʏᴏᴜʀ ᴏᴡɴᴇʀ ᴜsᴇʀ ɪᴅ",
