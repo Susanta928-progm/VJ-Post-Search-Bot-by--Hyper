@@ -1,29 +1,36 @@
 {
-  "name": "aanya",
-  "description": "file sharing bot store posts and it can access by special links",
+  "name": "lol",
+  "description": "A telegram bot",
+  "logo": "https://envs.sh/vLi.jpg",
   "keywords": [
-    "telegram",
-    "file",
-    "sharing"
+    "mongodb",
+    "python",
+    "pyrogram"
   ],
-  "repository": "https://github.com/SMK-BOTZ/postsearch",
-  "logo": "https://ibb.co/FgPVtzw",
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "repository": "https://github.com/Susanta928-progm/VJ-Post-Search-Bot-by--Hyper",
   "env": {
-    "PROTECT_CONTENT": {
-      "description": "Protect contents from getting forwarded",
-      "value": "False",
-      "required": false
-    }
-  },
-  "buildpacks": [
-    {
-      "url": "heroku/python"
-    }
-  ],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "eco"
+    "BOT_TOKEN": {
+      "description": "ᴀ ʙᴏᴛ ᴛᴏᴋᴇɴ ғʀᴏᴍ @BotFather",
+      "required": false,
+      "value": ""
+    },
+    "STRING_SESSION": {
+      "description": "ғɪʟʟ ʜᴇʀᴇ ᴀ ᴘʏʀᴏɢʀᴀᴍ sᴛʀɪɴɢ sᴇssɪᴏɴ ғᴏʀ ɪᴅ-ᴄʜᴀᴛʙᴏᴛ, ɢᴇᴛ ɪᴛ ғʀᴏᴍ: https://telegram.tools/session-string-generator#pyrogram,user (ᴛʜɪs ɪs ᴏᴘᴛɪᴏɴᴀʟ, ɪғ ʏᴏᴜ ᴅᴏɴᴛ ᴡᴀɴᴛ ɪᴅ-ᴄʜᴀᴛʙᴏᴛ ʏᴏᴜ ᴄᴀɴ sᴋɪᴘ ᴛʜɪs ᴠᴀʀɪᴀʙʟᴇ)",
+      "required": false,
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "ғɪʟʟ ʜᴇʀᴇ ʏᴏᴜʀ ᴏᴡɴᴇʀ ᴜsᴇʀ ɪᴅ",
+      "required": false,
+      "value": "6399386263"
+    },
+    "MONGO_URL": {
+      "description": "ɢᴇᴛ ᴀ ᴍᴏɴɢᴏᴅʙ ᴜʀʟ ғʀᴏᴍ https://cloud.mongodb.com.",
+      "required": false,
+      "value": ""
     }
   }
 }
